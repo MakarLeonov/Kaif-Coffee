@@ -68,7 +68,7 @@ section {
 .item:nth-child(2) {
     /* padding-bottom: 40px; */
     scroll-snap-align: start;
-    height: 1000px;
+    height: 835px;
     width: 55%;
 }
 
@@ -81,6 +81,7 @@ section {
     /* background-color: brown; */
     /* border: 1px solid black; */
     /* height: 300px; */
+    scroll-snap-align: start;
     scroll-snap-stop: normal;
 
 }
@@ -123,7 +124,7 @@ section {
 .tab {
   background-color: #fff;
   width: 100%;
-  height: 90%;
+  height: 95%;
   overflow: hidden;
   border-radius: 10px;
   /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
@@ -132,7 +133,7 @@ section {
   /* border: 1px solid greenyellow; */
 }
 
-.asd {
+.tabs-line {
     width: 60%;
     margin: auto;
 }
@@ -231,7 +232,14 @@ text-align: center;
 .stroke {
     width: 100%;
     display: flex;
-    margin-bottom: 7px;
+    margin-bottom: -4px;
+}
+
+.stroke2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: -4px;
+    justify-content: space-between;
 }
 
 .coffe-name {
@@ -239,7 +247,7 @@ text-align: center;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
-    font-size: 27px;
+    font-size: 21px;
     line-height: 33px;
     display: flex;
     align-items: center;
@@ -251,7 +259,7 @@ text-align: center;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 19px;
     line-height: 33px;
     /* display: flex;
     align-items: center;
@@ -265,7 +273,7 @@ text-align: center;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 19px;
     line-height: 33px;
     /* display: flex;
     align-items: center;
@@ -273,6 +281,7 @@ text-align: center;
     color: #434343;
     flex-basis: 27.7%;
     text-align: right;
+    margin-right: 35px;
 }
 
 .assortiment-title {
@@ -286,7 +295,571 @@ text-align: center;
     color: #434343;
 }
 
+.post-scriptum {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #434343;
+    margin-top: 15px;
 
+}
+
+@media (max-width: 1700px) {
+
+    .cost2 {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1620px) {
+
+    .item:nth-child(2) {
+        width: 60%;
+    }
+
+    .cost2 {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1460px) {
+
+    .cost2 {
+        margin-right: 28px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .item:nth-child(2) {
+        width: 65%;
+    }
+
+}
+
+@media (max-width: 1300px) {
+
+    .item:nth-child(2) {
+        width: 68%;
+    }
+
+    .coffe-name {
+        flex-basis: 64%;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .item:nth-child(2) {
+        width: 72%;
+    }
+
+    .coffe-name {
+        flex-basis: 60%;
+    }
+
+    .tab__btns > div {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    .item:nth-child(2) {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .item:nth-child(2) {
+        width: 75%;
+    }
+
+    .coffe-name {
+        flex-basis: 60%;
+        font-size: 20px;
+    }
+
+    .cost {
+        font-size: 18px;
+    }
+
+    .cost2 {
+        font-size: 18px;
+    }
+
+    .tab__btns > div {
+        font-size: 23px;
+    }
+
+    .tabs-line {
+        width: 70%;
+    }
+
+    .tab__btns {
+        width: 70%;
+        height: 55px;
+        align-items: top;   
+    }
+
+}
+
+@media (max-width: 940px) {
+
+    .item:nth-child(2) {
+        width: 80%;
+    }
+
+    .post-scriptum {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 888px) {
+
+    .item:nth-child(2) {
+        width: 83%;
+    }
+
+    .coffe-name {
+        flex-basis: 60%;
+        font-size: 19px;
+    }
+
+    .cost {
+        font-size: 17px;
+    }
+
+    .cost2 {
+        font-size: 17px;
+    }
+
+    .assortiment-title {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .assortiment-title {
+        font-size: 23px;
+    }
+
+    .coffe-name {
+        flex-basis: 57%;
+        font-size: 19px;
+    }
+
+    .cost {
+        font-size: 17px;
+        flex-basis: 14%;
+    }
+
+    .cost2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 730px) {
+
+    .item:nth-child(2) {
+        width: 86%;
+    }
+
+    .coffe-name {
+        flex-basis: 60%;
+        font-size: 18px;
+    }
+
+    .cost {
+        font-size: 16px;
+    }
+
+    .cost2 {
+        font-size: 16px;
+    }
+
+    .tab__btns > div {
+        font-size: 22px;
+    }
+
+    .tab__btns {
+        width: 73%;
+        height: 50px;
+    }
+
+    .tabs-line {
+        width: 73%;
+    }
+
+    .post-scriptum {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 705px) {
+    .cost2 {
+        margin-right: 26px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .item:nth-child(2) {
+        width: 90%;
+    }
+    .tab__btns > div {
+        font-size: 21px;
+    }
+
+    .cost2 {
+        margin-right: 20px;
+    }
+
+    
+}
+
+@media (max-width: 650px) {
+
+    .item:nth-child(2) {
+        width: 92%;
+    }
+
+    .tab__btns > div {
+        font-size: 20px;
+    }
+
+    .tab__btns {
+        width: 78%;
+    }
+
+    .tabs-line {
+        width: 78%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .item:nth-child(2) {
+        width: 94%;
+    }
+
+    .post-scriptum {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .item:nth-child(2) {
+        width: 94%;
+    }
+
+    .tab__btns {
+        width: 80%;
+        height: 50px;
+    }
+
+    .tabs-line {
+        width: 80%;
+    }
+
+    .cost2 {
+        margin-right: 13px;
+    }
+
+    .section-title {
+        height: 28px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .tab__btns {
+        width: 83%;
+    }
+
+    .tabs-line {
+        width: 83%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .tab__btns {
+        width: 85%;
+    }
+
+    .tabs-line {
+        width: 85%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .item:nth-child(2) {
+        width: 97%;
+    }
+
+    .tab__btns {
+        width: 87%;
+    }
+
+    .tabs-line {
+        width: 87%;
+    }
+}
+
+
+@media (max-width: 460px) {
+
+    .item:nth-child(2) {
+        width: 100%;
+    }
+
+    .tab__btns {
+        width: 90%;
+    }
+
+    .tabs-line {
+        width: 90%;
+    }
+
+    .post-scriptum {
+        font-size: 19px;
+    }
+    
+}
+
+@media (max-width: 440px) {
+
+    .cost {
+        font-size: 16px;
+        flex-basis: 18%;
+    }
+    
+    .cost2 {
+        flex-basis: 18%;
+
+    }
+
+    .tab__btns {
+        width: 93%;
+        height: 47px;
+    }
+
+    .tabs-line {
+        width: 93%;
+    }
+
+    .tab__btns > div {
+        font-size: 19px;
+    }
+    
+}
+
+
+@media (max-width: 400px) {
+
+    .tab__btns {
+        width: 96%;
+        height: 44px;
+    }
+
+    .tabs-line {
+        width: 96%;
+    }
+
+    .tab__btns > div {
+        font-size: 19px;
+    }
+
+    .tab {
+        padding: 0px 25px;
+    }
+
+    .stroke {
+        margin-bottom: -6px;
+    }
+
+    .cost {
+        line-height: 30px;
+        flex-basis: 19%;
+    }
+    
+    .cost2 {
+        line-height: 30px;
+        flex-basis: 19%;
+
+    }
+
+    .coffe-name {
+        line-height: 30px;
+    }
+
+    .assortiment-title {
+        margin-top: 5px;
+    }
+
+    .tab {
+        padding: 0px 25px;
+    }
+    
+}
+
+@media (max-width: 390px) {
+
+    .tab__btns {
+        width: 97%;
+        height: 44px;
+    }
+
+    .tabs-line {
+        width: 97%;
+    }
+
+    .tab__btns > div {
+        font-size: 19px;
+    }
+
+    .cost {
+        line-height: 30px;
+        flex-basis: 20%;
+    }
+    
+    .cost2 {
+        line-height: 30px;
+        flex-basis: 20%;
+
+    }
+
+    .coffe-name {
+        line-height: 30px;
+    }
+
+    .post-scriptum {
+        font-size: 18.5px;
+    }
+
+    /* .tab {
+        padding: 0px 24px;
+    }
+     */
+}
+
+@media (max-width: 380px) {
+
+    .tab__btns {
+        width: 99%;
+        height: 44px;
+    }
+
+    .tabs-line {
+        width: 99%;
+    }
+
+    .tab__btns > div {
+        font-size: 19px;
+    }
+
+    .cost {
+        line-height: 30px;
+        flex-basis: 21%;
+    }
+    
+    .cost2 {
+        line-height: 30px;
+        flex-basis: 21%;
+
+    }
+
+    .coffe-name {
+        line-height: 30px;
+    }
+
+    /* .tab {
+        padding: 0px 23px;
+    } */
+    
+}
+
+@media (max-width: 370px) {
+
+    .tab__btns {
+        width: 100%;
+        height: 44px;
+    }
+
+    .tabs-line {
+        width: 100%;
+    }
+
+    .tab__btns > div {
+        font-size: 19px;
+    }
+
+    .assortiment-title {
+        font-size: 22px;
+    }
+    
+    /* .tab {
+        padding: 0px 21px;
+    } */
+    
+}
+
+@media (max-width: 360px) {
+
+    .tab {
+        padding: 0px 20px;
+    }
+
+    .post-scriptum {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .tab {
+        padding: 0px 7px;
+    }
+
+    .tab__body {
+        padding: 10px 10px;
+        margin: auto;
+    }
+
+    .coffe-name {
+        flex-basis: 43%;
+        font-size: 18px;
+
+        white-space: nowrap; /* Запрещаем перенос строк */
+        overflow: hidden; /* Обрезаем все, что не помещается в область */   
+        text-overflow: ellipsis; /* Добавляем многоточие */
+    }
+
+    .cost {
+        font-size: 15px;
+        flex-basis: 17%;
+
+    }
+
+    .cost2 {
+        font-size: 15px;
+    }
+}
 /* --------------------------------------- TABS ------------------------------- */
 
 
@@ -400,7 +973,7 @@ text-align: center;
 
     .popup {
         position: fixed;
-        top: 75px;
+        top: 60px;
         left: -100%;
         width: 100%;
         height: 100%;
