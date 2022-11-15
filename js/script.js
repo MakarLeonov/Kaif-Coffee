@@ -74,4 +74,34 @@ function changeSlide(index) {
   activeSlide = tabSlide[index];
 }
 
+
+
+// обрезка длинного имени кофе, если оно не влезает
+const mediaQuery = window.matchMedia('(max-width: 370px)');
+if (mediaQuery.matches) {
+  let namesOfCoffee = document.querySelectorAll('.namesOfCoffee');
+  namesOfCoffee.forEach(element => {
+    if (element.innerText.length >= 13) {
+      element.innerText = element.innerText.slice(0, 12) + "...";
+    }
+  });
+}
+
+
+
+
+
 // ------------------------------ TABS -------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
